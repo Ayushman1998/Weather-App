@@ -1,0 +1,158 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #e96443, #904e95); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+i{
+    font-size: 20px;
+}
+
+button{
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    background-color: white;
+    align-self: center;
+    display: block;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 5px 10px 20px black;
+}
+
+.app-title{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+#search {
+    display: block;
+    width: 60%;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid  rgb(153, 153, 153);
+    outline: none;
+    margin: auto;
+    resize: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+#search:focus{
+    border-color: black;
+}
+
+.input-button-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.notification{
+    background-color: white;
+    display: none;
+}
+
+.notification p{
+    color: maroon;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather-icon{
+    width: 100%;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-icon i{
+    font-size: 72px;
+}
+
+.weather-icon img{
+    width: 120px;
+
+}
+
+.temperature-value{
+    width: 100%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 2.5rem;
+}
+
+.temperature-description{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature-description p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
